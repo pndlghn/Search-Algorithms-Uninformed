@@ -91,7 +91,7 @@ Jika dijalankan, program akan mencetak urutan node yang dikunjungi dan jalur has
 
 Output:
 
-```vbnet
+```pgsql
 Visiting: A
 Visiting: B
 Visiting: D
@@ -186,7 +186,7 @@ print("BFS Path:", bfs(example_graph, 'A', 'G'))
 
 Contoh Eksekusi
 Jika dijalankan, program akan mencetak urutan node yang dikunjungi dan jalur hasil BFS:
-```vbnet
+```pgsql
 Visiting: A
 Visiting: B
 Visiting: C
