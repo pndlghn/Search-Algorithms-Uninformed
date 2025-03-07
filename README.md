@@ -86,7 +86,8 @@ print("DFS Path:", dfs(example_graph, 'A', 'G'))
 ```
 - Mencari jalur dari ``` 'A' ``` ke ``` 'G' ``` menggunakan DFS dan menampilkan hasilnya.
 
-Contoh Eksekusi
+Contoh Eksekusi:
+
 Jika dijalankan, program akan mencetak urutan node yang dikunjungi dan jalur hasil DFS:
 
 Output:
@@ -184,7 +185,8 @@ print("BFS Path:", bfs(example_graph, 'A', 'G'))
 - Memanggil fungsi ``` bfs ``` untuk mencari jalur dari ``` 'A' ``` ke ``` 'G' ```.
 - Hasil jalur akan dicetak.
 
-Contoh Eksekusi
+Contoh Eksekusi:
+
 Jika dijalankan, program akan mencetak urutan node yang dikunjungi dan jalur hasil BFS:
 ```pgsql
 Visiting: A
@@ -289,7 +291,8 @@ print("UCS Path:", path, "with minimum cost:", cost)
 - Mencari jalur dengan biaya minimum dari ``` 'A' ``` ke ``` 'G' ``` menggunakan UCS.
 - Menampilkan hasil jalur dan biaya totalnya.
   
-Contoh Eksekusi
+Contoh Eksekusi:
+
 Jika dijalankan, program akan mencetak jalur yang dikunjungi dan hasil UCS:
 
 ```pgsql
